@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap');
+body{
+    font-family: 'Amiri', serif;
+}
+
+h1{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+ul{
+    display: inline;
+    
+}
+li{
+    display: inline;
+    padding: 2.5em;
+    margin: 2.5em;
+}
+
+header{
+    background-color: rgb(169, 186, 207);
+    border-radius: 5px;
+}
+
+h1:hover{
+    color: rgb(70, 69, 69);
+}
+
+
+
+a:active {
+    color: rgba(17, 8, 95, 0.281);
+}
+
+blockquote {
+    text-align: center;
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+ blockquote{
+    background-color: #eee;
+    font-family: 'Amiri', serif;
+}
+
+blockquote img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
